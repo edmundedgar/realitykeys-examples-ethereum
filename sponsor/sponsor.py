@@ -34,7 +34,7 @@ class TestResolution(TestCase):
         ETH_TO_WEI = 1000000000000000000000
 
         self.pledge_id = self.c.add_pledge(
-            self.alice_addr, 
+            self.bob_addr, 
             decode_hex(event_hash), 
             base_unit,
             100, # You have to walk at least 100 meters before we pay
